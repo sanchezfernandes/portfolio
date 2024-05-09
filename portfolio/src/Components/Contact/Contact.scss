@@ -39,8 +39,6 @@
     display: flex;
     flex-direction: column;
     width: 70%;
-    // padding-top: 150px;
-    // padding-left: 100px;
 }
 
 .input {
@@ -64,7 +62,7 @@
 
     &:focus {
         color: black;
-        // background-color: violet;
+        background-color: violet;
     }
 }
 
@@ -72,4 +70,19 @@
     border-radius: 10px;
     padding-left: 5px;
     padding-top: 5px;
+}
+
+.send {
+    background-color: $blue;
+    font-size: 16px;
+    color: $grey;
+    border-style: none;
+    height: 2.2rem;
+    border-radius: 10px;
+    margin-top: 40px;
+
+    &:hover {
+        background-color: #6daa96;
+        color: $white;
+    }
 }

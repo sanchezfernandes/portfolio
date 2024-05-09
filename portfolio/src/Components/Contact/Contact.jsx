@@ -19,6 +19,12 @@ const Contact = () => {
             <img onClick={handleScroll} className='scroll' src={scroll} alt="scroll-up" />
 
             <section className='socialLinks'>links</section>
+            <div className='socialsDiv'>
+                <section>
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                </section>
+            </div>
 
             <section className='formSection'>
                 <div className='formDiv'>
@@ -27,6 +33,7 @@ const Contact = () => {
                         <input className='input' id='email' type="email" placeholder='Enter your email' />
                         <label className='label--mess' htmlFor="message">Message</label>
                         <textarea className='input' name="message" id="message" cols="30" rows="10" placeholder="Let's talk"></textarea>
+                        <button className='send'>Send Message</button>
                     </form>
                 </div>
             </section>
