@@ -1,0 +1,12 @@
+@use "../../styles/colors" as *;
+
+.homeMain {
+    height: 90vh;
+    background-color: $grey;
+}
+
+.test {
+    color: green;
+    height: 90vh;
+    // border: 1px solid white;
+}

@@ -1,0 +1,33 @@
+@use "../../styles/colors" as *;
+
+.header {
+    height: 50px;
+    // border: 1px solid cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    background-color: $blue;
+    color: $grey;
+}
+
+.linkSec {
+    width: 40%;
+    padding-top: 15px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: 600;
+}
+
+
+.linkTo {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: $white;
+    }
+}

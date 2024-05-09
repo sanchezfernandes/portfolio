@@ -1,0 +1,75 @@
+@use "../../styles/colors" as *;
+
+
+.contactMain {
+    height: 100vh;
+    background-color: $grey;
+    display: flex;
+    position: relative;
+}
+
+.contactTitle {
+    position: absolute;
+    left: 47%;
+    top: 5%
+}
+
+.socialLinks {
+    width: 50%;
+}
+
+.formSection {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDiv {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2d2e;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    // padding-top: 150px;
+    // padding-left: 100px;
+}
+
+.input {
+    background-color: $ash;
+}
+
+.label {
+    padding-bottom: 10px;
+    color: $white;
+
+    &--mess {
+        padding: 20px 0px 10px 0px;
+        color: $white;
+    }
+}
+
+#email {
+    height: 1.5rem;
+    padding-left: 5px;
+    border-radius: 10px;
+
+    &:focus {
+        color: black;
+        // background-color: violet;
+    }
+}
+
+#message {
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+}

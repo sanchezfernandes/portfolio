@@ -1,0 +1,19 @@
+@use "../../styles/colors" as *;
+
+.aboutTest {
+    height: 100vh;
+    background-color: $grey;
+    // border: 1px solid white;
+}
+
+.scroll {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 50%;
+    opacity: 0.2;
+
+    &:hover {
+        opacity: 1;
+    }
+}
