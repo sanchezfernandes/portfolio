@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Contact.scss";
-import scroll from "../../assets/scroll-up.png"
-import { scroller } from "react-scroll"
+import scroll from "../../assets/scroll-up.png";
+import git from "../../assets/gitIcon.png";
+import linked from "../../assets/linked.png";
+import { scroller } from "react-scroll";
+import { Link } from 'react-router-dom';
 
 
 const Contact = () => {
@@ -20,9 +23,9 @@ const Contact = () => {
 
             <section className='socialLinks'>links</section>
             <div className='socialsDiv'>
-                <section>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                <section className='left'>
+                    <a href="https://www.linkedin.com/in/sanchez-fernandes/" target="_blank">  <img className='linkedIn' src={linked} alt="linkedIn" /></a>
+                    <a href="https://github.com/sanchezfernandes" target="_blank"><img className='socialIcon' src={git} alt="github" /></a>
                 </section>
             </div>
 

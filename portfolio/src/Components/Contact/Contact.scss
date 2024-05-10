@@ -14,8 +14,35 @@
     top: 5%
 }
 
+.socialsDiv {
+    // width: 80%;
+    // height: 500px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // background-color: #2a2d2e;
+    // border-radius: 10px;
+}
+
+// .left {
+//     position: relative;
+// }
+
 .socialLinks {
     width: 50%;
+    position: relative;
+}
+
+.socialIcon {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+.linkedIn {
+    position: absolute;
+    left: 20%;
+    top: 30%
 }
 
 .formSection {
