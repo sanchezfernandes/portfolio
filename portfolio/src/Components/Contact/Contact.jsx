@@ -4,7 +4,6 @@ import scroll from "../../assets/scroll-up.png";
 import git from "../../assets/gitIcon.png";
 import linked from "../../assets/linked.png";
 import { scroller } from "react-scroll";
-import { Link } from 'react-router-dom';
 
 
 const Contact = () => {
@@ -21,13 +20,12 @@ const Contact = () => {
             <h2 className='contactTitle'>Contact Me</h2>
             <img onClick={handleScroll} className='scroll' src={scroll} alt="scroll-up" />
 
-            <section className='socialLinks'>links</section>
-            <div className='socialsDiv'>
-                <section className='left'>
+            <section className='socialLinks'>
+                <div className='socialsDiv'>
                     <a href="https://www.linkedin.com/in/sanchez-fernandes/" target="_blank">  <img className='linkedIn' src={linked} alt="linkedIn" /></a>
                     <a href="https://github.com/sanchezfernandes" target="_blank"><img className='socialIcon' src={git} alt="github" /></a>
-                </section>
-            </div>
+                </div>
+            </section>
 
             <section className='formSection'>
                 <div className='formDiv'>
