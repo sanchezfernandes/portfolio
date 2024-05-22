@@ -1,5 +1,7 @@
 @use "../../styles/colors" as *;
 
+
+
 .aboutTest {
     height: 100vh;
     background-color: $grey;
@@ -16,4 +18,9 @@
     &:hover {
         opacity: 1;
     }
+}
+
+.bio {
+    color: $white;
+    padding: 40px 80px;
 }
