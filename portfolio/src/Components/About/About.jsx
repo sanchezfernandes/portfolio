@@ -13,10 +13,16 @@ const About = () => {
     };
 
     return (
-        <main>
+        <main className='mainAbout'>
             <img onClick={handleScroll} className='scroll' src={scroll} alt="scroll-up" />
             <div className='aboutTest'>
-                HELLO MY NAME IS SANCHEZ
+                <p className='bio'>I have a background in music performance and education.
+                    My first introduction to programming was in high school where we spent a semester
+                    with C++ I enjoyed it and that stayed with me while I pursued my music studies.
+                    During the pandemic, I tried to reignite my interest in programming, starting
+                    with Python, but I felt the need for guidance. Joining BrainStation, I discovered
+                    a passion for the creative problem-solving aspects of programming.
+                </p>
             </div>
         </main>
     )
