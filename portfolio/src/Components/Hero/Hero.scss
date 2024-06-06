@@ -1,9 +1,18 @@
 @use "../../styles/colors" as *;
 
 .heroMain {
-    height: 90vh;
-    // border: 1px solid orange;
+    height: 95vh;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.heroImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .heroTitle {
